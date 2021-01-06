@@ -27,9 +27,9 @@ A python library which will help us to convert text to speech. In short, it is a
 It works offline, and it is compatible with Python 2 as well the Python 3.
 
 ###### Installation:
-'''
+"
 pip install pyttsx3
-'''
+"
 ### What is sapi5?
 Speech API developed by Microsoft.
 Helps in synthesis and recognition of voice.
@@ -37,6 +37,7 @@ Helps in synthesis and recognition of voice.
 ### What Is VoiceId?
 Voice id helps us to select different voices.
 voice[0].id = Male voice 
+
 voice[1].id = Female voice
 
 ### Defining Wish me Function :
@@ -45,7 +46,7 @@ Now, we are going to make a wishme() function, that will make our A.L.E.X wish o
 ### Defining Take command Function :
 With the help of the takeCommand() function,will be able to return a string output by taking microphone input from the user.
 
-#### Coding logic of Jarvis
+#### Coding logic of Alex
 It will develop logics for different commands such as Wikipedia searches, playing music, etc.
 
 ### What is smtplib?
